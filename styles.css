@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background: #fdf6e3;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 1.4rem;
+    margin-bottom: 0;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  #giraffe {
+    position: relative;
+    width: 400px;
+    height: 800px;
+    margin: 0 auto 30px auto;
+    background-image: url('giraffe.png'); /* Replace with your image file */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid #ccc;
+  }
+  
+  .spot {
+    width: 20px;
+    height: 20px;
+    background: #e74c3c;
+    border-radius: 50%;
+    position: absolute;
+    cursor: grab;
+    z-index: 10;
+  }
+  
+  footer {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 30px;
+  }
